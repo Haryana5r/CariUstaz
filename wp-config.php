@@ -20,19 +20,19 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'cariustaz' );
 
 /** Database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -49,6 +49,20 @@ define( 'DB_COLLATE', '' );
  * @since 2.6.0
  */
 
+
+/*define( 'AUTH_KEY',         'put your unique phrase here' );
+>>>>>>> de30025c00f77ec883a068b263201eee3b536067
+define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
+define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
+define( 'NONCE_KEY',        'put your unique phrase here' );
+define( 'AUTH_SALT',        'put your unique phrase here' );
+define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
+define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
+<<<<<<< HEAD
+define( 'NONCE_SALT',       'put your unique phrase here' );
+=======
+define( 'NONCE_SALT',       'put your unique phrase here' );*/
+//=======
 define( 'AUTH_KEY',         ';X[R&#1_=WH/A#ThwQ1OVq<,3[zl@>pG%V)`wKu(uM&]I1 4l<^.Pw-)Pz=F8AS)' );
 define( 'SECURE_AUTH_KEY',  't6rs[4#l,Bkf76,?6iwfADR!}T1G@.r?1-3EYO$tysZ.H9-g.&m`2)+t*3,:w(TH' );
 define( 'LOGGED_IN_KEY',    '[Drmu^hj7sSR ,fjxq]<o,`_=S,M>Za;%_V^=6yy566B%/9@MrW@dI.tL<rEb&~{' );
@@ -57,6 +71,7 @@ define( 'AUTH_SALT',        'VnmC.g5KQT,-|X@Bx+ejC}[;o[5f6lvFkcSv9m!(rH0[qk^?cc6
 define( 'SECURE_AUTH_SALT', 'se.~*tScaX8jT9-qPwd*cH<[hlg4tKKl-sBaS{q*M.]>.uA7M3*u8.r{r.O~UD9p' );
 define( 'LOGGED_IN_SALT',   'v`mV!BN|1Lv?Qd?z%:fBv&=}hmE0nF{VzY_xph|7EvJkag>OGQdPxIwdt~8f&ugP' );
 define( 'NONCE_SALT',       '.ApX^B*o)^(+A0^#Pb`Czb-*]EKuRc y3lyF~SN68Dwp(BOm=i7L_rlZ40?vnOo4' );
+//>>>>>>> 35a9772c7314fc1504b858431ca67853abf2c5be
 
 //#@-*/
 
