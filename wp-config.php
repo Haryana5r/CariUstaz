@@ -48,19 +48,19 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
+<<<<<<< HEAD
 
 
+=======
+//<<<<<<< HEAD
+>>>>>>> a75a3a5d99ff8cfed66c5992c340cc52d7d5a27f
 /*define( 'AUTH_KEY',         'put your unique phrase here' );
->>>>>>> de30025c00f77ec883a068b263201eee3b536067
 define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
 define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
 define( 'NONCE_KEY',        'put your unique phrase here' );
 define( 'AUTH_SALT',        'put your unique phrase here' );
 define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-<<<<<<< HEAD
-define( 'NONCE_SALT',       'put your unique phrase here' );
-=======
 define( 'NONCE_SALT',       'put your unique phrase here' );*/
 //=======
 define( 'AUTH_KEY',         ';X[R&#1_=WH/A#ThwQ1OVq<,3[zl@>pG%V)`wKu(uM&]I1 4l<^.Pw-)Pz=F8AS)' );
